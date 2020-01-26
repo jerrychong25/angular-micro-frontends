@@ -3,18 +3,24 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
 ## Build flight-booking sub project
-`cd flight-booking`</br>
-`ng build --prod --output-hashing none --single-bundle true`</br>
-`http-server ./dist/flight-booking -p 8081`
+```
+cd flight-booking
+ng build --prod --output-hashing none --single-bundle true
+http-server ./dist/flight-booking -p 8081
+```
 
 ## Run train-booking sub project
-`cd train-booking`</br>
-`ng build --prod --output-hashing none --single-bundle true`</br>
-`http-server ./dist/train-booking -p 8082`
+```
+cd train-booking
+ng build --prod --output-hashing none --single-bundle true
+http-server ./dist/train-booking -p 8082
+```
 
 ## Run travel-booking main project
-`cd travel-booking`</br>
-`ng serve`
+```
+cd travel-booking
+ng serve
+```
 
 Navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files.
 
